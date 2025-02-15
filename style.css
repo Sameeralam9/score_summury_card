@@ -135,13 +135,13 @@ main {
   text-align: center;
   padding: 1.5vw 3vw 0 3vw;
 }
-@media (min-width: 1281px) and (max-width: 1600px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .num {
     width: 13vw;
     height: 13vw;
   }
   .crd1 {
-    width: 22vw;
+    max-width: 22rem;
   }
   #txt {
     padding: 1.5vw 2vw 2vw 2vw;
